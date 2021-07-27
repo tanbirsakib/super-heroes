@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+
+.section-div{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.section-div img{
+    width: 80%;
+    
+}
+.thor-name{
+    color: #D4A828;
+}
+.spiderman-name{
+    color : #026DA1;
+}
+p{
+    text-align: justify;
+    color: wheat;
+}
+
+.thor-section{
+    display: flex;
+    background-color: #3b3e42;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    border-radius: 10px;
+    margin: 5px;
+    height: 550px;
+}
+.spiderman-section{
+    display: flex;
+    background-color: #d91a14;
+    background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+    border-radius: 10px;
+    margin: 5px;
+    height: 550px;
+}
+.spider-padding{
+    padding-top: 70px;
+}
+
+.hire-me{
+    text-decoration: none;
+    background-image: linear-gradient(to right,rgb(131, 124, 29),#D4A828);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.bottom-section{
+    display: flex;
+   
+}
+.bottom-section div{
+  
+    box-shadow: 5px 7px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+#thor-bottom{
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;   
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);   
+}
+#thor-bottom:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#spider-bottom{
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;   
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);   
+}
+#spider-bottom:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.bottom-heading{
+    margin: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(to right,#026DA1,#401212);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contribution{
+    padding-right: 10px;
+    color : black;
+    text-align: justify;
+}
+
+.foot{
+    text-align: center;
+    padding-top: 10px;
+}
